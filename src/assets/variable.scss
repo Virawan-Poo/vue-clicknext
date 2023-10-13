@@ -1,0 +1,43 @@
+$white : #FFFFFF;
+$whitePurple : #cfcbeb;
+$violet : #594f74;
+$lightPurple: #635f98;
+$grayPurple : #84848f;
+
+@mixin textXS($color) {
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 1.25em;
+    color: $color;
+}
+
+@mixin textSM($color) {
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: $color;
+}
+
+@mixin textSubTitleSM($color) {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25em;
+    color: $color;
+}
+
+@mixin textSubTitle($color) {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25em;
+    color: $color;
+}
+
+@mixin textTitle($color) {
+    font-family: 'Kanit', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: $color;
+}

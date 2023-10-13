@@ -1,39 +1,56 @@
 <template>
-  <div id="carouselExample" class="carousel slide">
+  <div
+    id="banner-slider"
+    class="carousel slide banner-slider-wrap"
+    data-bs-touch="true"
+  >
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../public/slide.jpg" class="d-block w-100" alt="..." />
-      </div>
-      <div class="carousel-item">
-        <img src="../public/slide.jpg" class="d-block w-100" alt="..." />
-      </div>
-      <div class="carousel-item">
-        <img src="../public/slide.jpg" class="d-block w-100" alt="..." />
+      <div
+        class="carousel-item"
+        :class="{ active: data.id === 1 }"
+        v-for="data in jsonData"
+        :key="data.id"
+      >
+        <img :src="data.image" class="d-block w-100" :alt="data.imageAlt" />
       </div>
     </div>
     <button
-      class="carousel-control-prev"
+      class="carousel-control-prev w-auto ms-4"
       type="button"
-      data-bs-target="#carouselExample"
+      data-bs-target="#banner-slider"
       data-bs-slide="prev"
     >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+      <span class="icon-prev large" aria-hidden="true"></span>
     </button>
     <button
-      class="carousel-control-next"
+      class="carousel-control-next w-auto me-4"
       type="button"
-      data-bs-target="#carouselExample"
+      data-bs-target="#banner-slider"
       data-bs-slide="next"
     >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+      <span class="icon-next large" aria-hidden="true"></span>
     </button>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["jsonData"],
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.banner-slider-wrap {
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0;
+  }
+
+  &:hover {
+    .carousel-control-prev,
+    .carousel-control-next {
+      opacity: 1;
+    }
+  }
+}
+</style>
