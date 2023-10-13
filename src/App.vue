@@ -7,12 +7,11 @@ import NewsSlide from "./components/NewsSlide.vue";
 import SubTitle from "./components/SubTitle.vue";
 import Channel from "./components/Channel.vue";
 import { contentList } from "./data/contentList";
-import { homebannerList } from "./data/homebannerList";
 </script>
 
 <template>
   <LayoutDefault>
-    <Banner :jsonData="homeBanner" />
+    <Banner />
 
     <section class="gray-bg pb-5">
       <NavMenu />
@@ -41,7 +40,6 @@ export default {
   data() {
     return {
       articleData: contentList,
-      homeBanner: homebannerList,
     };
   },
 };

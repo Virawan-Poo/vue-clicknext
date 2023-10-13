@@ -2,7 +2,11 @@
   <div class="news-card" v-for="data in jsonData.slice(0, show)" :key="data.id">
     <a class="article-img" href="#">
       <figure class="mb-0">
-        <img :src="data.image" class="card-img-top" alt="" />
+        <img
+          :src="`src/public/article/img-article-${data.id}.jpg`"
+          class="card-img-top"
+          alt=""
+        />
       </figure>
     </a>
     <div class="card-body">

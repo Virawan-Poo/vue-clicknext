@@ -107,7 +107,11 @@
                 <div class="card">
                   <a class="article-img" href="#">
                     <figure class="mb-0">
-                      <img :src="data.image" class="card-img-top" alt="" />
+                      <img
+                        :src="`/src/public/channel/clip-${data.id}.jpg`"
+                        class="card-img-top"
+                        alt=""
+                      />
                     </figure>
                   </a>
                   <div class="card-body p-0 py-4">
@@ -169,7 +173,11 @@
                 <div class="card">
                   <a class="article-img" href="#">
                     <figure class="mb-0">
-                      <img :src="data.image" class="card-img-top" alt="" />
+                      <img
+                        :src="`/src/public/channel/clip-${data.id}.jpg`"
+                        class="card-img-top"
+                        alt=""
+                      />
                     </figure>
                   </a>
                   <div class="card-body p-0 py-4">
@@ -231,7 +239,11 @@
                 <div class="card">
                   <a class="article-img" href="#">
                     <figure class="mb-0">
-                      <img :src="data.image" class="card-img-top" alt="" />
+                      <img
+                        :src="`/src/public/channel/clip-${data.id}.jpg`"
+                        class="card-img-top"
+                        alt=""
+                      />
                     </figure>
                   </a>
                   <div class="card-body p-0 py-4">

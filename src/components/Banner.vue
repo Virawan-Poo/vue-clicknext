@@ -7,11 +7,15 @@
     <div class="carousel-inner">
       <div
         class="carousel-item"
-        :class="{ active: data.id === 1 }"
-        v-for="data in jsonData"
-        :key="data.id"
+        :class="{ active: index === 1 }"
+        v-for="index in 3"
+        :key="index"
       >
-        <img :src="data.image" class="d-block w-100" :alt="data.imageAlt" />
+        <img
+          src="../public/banner/slide.jpg"
+          class="d-block w-100"
+          alt="Banner"
+        />
       </div>
     </div>
     <button
@@ -33,11 +37,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: ["jsonData"],
-};
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 .banner-slider-wrap {
