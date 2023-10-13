@@ -11,7 +11,7 @@
             aria-controls="offcanvasWithBothOptions"
           >
             <img
-              src="../public/icon-list.svg"
+              src="../assets/images/icon-list.svg"
               alt="hamburger menu"
               width="44px"
               height="31px"
@@ -42,7 +42,7 @@
                   aria-label="Search"
                 />
                 <button class="btn bg-secondary" type="submit">
-                  <img src="../public/icon-search.svg" alt="search" />
+                  <img src="../assets/images/icon-search.svg" alt="search" />
                 </button>
               </form>
 
@@ -91,7 +91,7 @@
           </div>
 
           <div class="navbar-brand ps-2 ps-lg-4">
-            <img src="../public/logo-phatra.png" alt="logo phatra" />
+            <img src="../assets/images/logo-phatra.png" alt="logo phatra" />
           </div>
         </div>
 
@@ -106,7 +106,7 @@
               aria-label="Search"
             />
             <button class="btn-search" type="submit">
-              <img src="../public/icon-search.svg" alt="search" />
+              <img src="../assets/images/icon-search.svg" alt="search" />
             </button>
           </form>
 

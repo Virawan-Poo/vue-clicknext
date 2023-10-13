@@ -3,7 +3,7 @@
     <a class="article-img" href="#">
       <figure class="mb-0">
         <img
-          :src="'../src/public/article/img-article-' + data.id + '.jpg'"
+          :src="'src/assets/images/article/img-article-' + data.id + '.jpg'"
           class="card-img-top"
           alt=""
         />
@@ -32,6 +32,11 @@
 <script>
 export default {
   props: ["jsonData", "show"],
+  methods: {
+    getPic(imageId) {
+      return "../assets/images/img-article-" + imageId + ".jpg";
+    },
+  },
 };
 </script>
 

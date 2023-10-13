@@ -12,7 +12,7 @@
         :key="index"
       >
         <img
-          src="../public/banner/slide.jpg"
+          src="../assets/images/banner/slide.jpg"
           class="d-block w-100"
           alt="Banner"
         />

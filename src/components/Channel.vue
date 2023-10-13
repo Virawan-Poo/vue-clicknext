@@ -67,7 +67,7 @@
         >
           <div class="row align-items-center ms-xl-4">
             <div class="channel-frame col-lg-7 ps-xl-0">
-              <img src="../public/cover-video.jpg" />
+              <img src="../assets/images/cover-video.jpg" />
             </div>
             <div class="col-lg-5">
               <div class="wrap-content col-xxl-7 py-4 py-xxl-5">
@@ -108,7 +108,7 @@
                   <a class="article-img" href="#">
                     <figure class="mb-0">
                       <img
-                        :src="`/src/public/channel/clip-${data.id}.jpg`"
+                        :src="`src/assets/images/channel/clip-${data.id}.jpg`"
                         class="card-img-top"
                         alt=""
                       />
@@ -133,7 +133,7 @@
         >
           <div class="row align-items-center ms-xl-4">
             <div class="channel-frame col-lg-7 ps-xl-0">
-              <img src="../public/cover-video.jpg" />
+              <img src="../assets/images/cover-video.jpg" />
             </div>
             <div class="col-lg-5">
               <div class="wrap-content col-xxl-7 py-4 py-xxl-5">
@@ -174,7 +174,7 @@
                   <a class="article-img" href="#">
                     <figure class="mb-0">
                       <img
-                        :src="`/src/public/channel/clip-${data.id}.jpg`"
+                        :src="`src/assets/images/channel/clip-${data.id}.jpg`"
                         class="card-img-top"
                         alt=""
                       />
@@ -199,7 +199,7 @@
         >
           <div class="row align-items-center ms-xl-4">
             <div class="channel-frame col-lg-7 ps-xl-0">
-              <img src="../public/cover-video.jpg" />
+              <img src="../assets/images/cover-video.jpg" />
             </div>
             <div class="col-lg-5">
               <div class="wrap-content col-xxl-7 py-4 py-xxl-5">
@@ -240,7 +240,7 @@
                   <a class="article-img" href="#">
                     <figure class="mb-0">
                       <img
-                        :src="'src/public/channel/clip-' + data.id + '.jpg'"
+                        :src="`src/assets/images/channel/clip-${data.id}.jpg`"
                         class="card-img-top"
                         alt=""
                       />

@@ -3,7 +3,7 @@
     <div class="container pt-5 pb-3">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
-          <div><img src="../public/logo-phatra.png" /></div>
+          <div><img src="../assets/images/logo-phatra.png" /></div>
           <h4 class="text-brand mt-5 mb-3">บริษัท ทุนภัทร จำกัด (มหาชน)</h4>
           <p class="text-desc">
             ชั้น 9 อาคารสำนักงานเมืองไทย-ภัทร 1 252/6
@@ -38,33 +38,45 @@
             <dd class="mb-4">
               <a class="text-link" href="#"
                 ><span class="me-4"
-                  ><img src="../public/icon-tel.svg" alt="icon tel" /></span
+                  ><img
+                    src="../assets/images/icon-tel.svg"
+                    alt="icon tel" /></span
                 >(66) 2305 9800</a
               >
             </dd>
             <dd class="mb-4">
               <a class="text-link" href="#"
                 ><span class="me-4"
-                  ><img src="../public/icon-fax.svg" alt="icon fax" /></span
+                  ><img
+                    src="../assets/images/icon-fax.svg"
+                    alt="icon fax" /></span
                 >(66) 2305 9803</a
               >
             </dd>
             <dd class="mb-4">
               <a class="text-link" href="#"
                 ><span class="me-4"
-                  ><img src="../public/icon-mail.svg" alt="icon mail" /></span
+                  ><img
+                    src="../assets/images/icon-mail.svg"
+                    alt="icon mail" /></span
                 >customerservice@phatraasset.com</a
               >
             </dd>
             <dd class="pt-2 pt-lg-4 mb-0">
               <a class="logo-link" href="#"
-                ><img src="../public/logo-facebook.svg" alt="logo facebook"
+                ><img
+                  src="../assets/images/logo-facebook.svg"
+                  alt="logo facebook"
               /></a>
               <a class="logo-link" href="#"
-                ><img src="../public/logo-twitter.svg" alt="logo twitter"
+                ><img
+                  src="../assets/images/logo-twitter.svg"
+                  alt="logo twitter"
               /></a>
               <a class="logo-link" href="#"
-                ><img src="../public/logo-youtube.svg" alt="logo youtube"
+                ><img
+                  src="../assets/images/logo-youtube.svg"
+                  alt="logo youtube"
               /></a>
             </dd>
           </dl>

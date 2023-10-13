@@ -3,13 +3,25 @@
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../public/img-news.jpg" class="d-block w-100" alt="..." />
+          <img
+            src="../assets/images/img-news.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
         <div class="carousel-item">
-          <img src="../public/img-news.jpg" class="d-block w-100" alt="..." />
+          <img
+            src="../assets/images/img-news.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
         <div class="carousel-item">
-          <img src="../public/img-news.jpg" class="d-block w-100" alt="..." />
+          <img
+            src="../assets/images/img-news.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
       </div>
 
