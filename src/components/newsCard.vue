@@ -3,7 +3,7 @@
     <a class="article-img" href="#">
       <figure class="mb-0">
         <img
-          :src="`src/public/article/img-article-${data.id}.jpg`"
+          :src="'../src/public/article/img-article-' + data.id + '.jpg'"
           class="card-img-top"
           alt=""
         />

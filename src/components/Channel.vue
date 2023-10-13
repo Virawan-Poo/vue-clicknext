@@ -240,7 +240,7 @@
                   <a class="article-img" href="#">
                     <figure class="mb-0">
                       <img
-                        :src="`/src/public/channel/clip-${data.id}.jpg`"
+                        :src="'src/public/channel/clip-' + data.id + '.jpg'"
                         class="card-img-top"
                         alt=""
                       />
